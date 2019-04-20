@@ -2,7 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 const App = () => {
-    return <h1>Hello world !!! haha blya</h1>
+    return ( 
+        <div className="newElement">
+        <h1>Hello react</h1>
+        <div>hey</div>
+        </div>
+    )
 } 
 
 ReactDOM.render(<App/>,document.querySelector('#root'))
