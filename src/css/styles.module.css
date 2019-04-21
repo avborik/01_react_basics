@@ -1,7 +1,7 @@
 body {
     margin:0;
+    font-family: 'Anton'
 }
-
 header {
     background:#03a9f4;
     text-align: center
@@ -16,4 +16,10 @@ header {
 header input {
     font-size: 20px;
     margin: 20px 0;
+}
+
+.news_item {
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
 }

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 // import ReactDOM from 'react-dom';
-import '../css/styles.css'
+import '../css/styles.module.css'
 
 class Header extends Component {
         state = {
