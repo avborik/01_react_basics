@@ -1,6 +1,7 @@
 import React from 'react';
-import classes from '../css/styles.module.css'
-const NewsItem = ({item}) => {
+import classes from '../css/styles.css'
+
+const NewsItem = ({item}) =>{
 
     return(
         <div className={classes.news_item}>
@@ -8,10 +9,9 @@ const NewsItem = ({item}) => {
             <div>
                 {item.feed}
             </div>
-        </div>
+        </div> 
     )
 }
 
 export default NewsItem;
-
 
